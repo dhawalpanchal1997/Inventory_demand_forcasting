@@ -21,7 +21,7 @@ To set up the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/dhawalpanchal1997/Inventory_demand_forcasting.git
 
 # Navigate to the project directory
 cd your-repository
@@ -51,7 +51,7 @@ The project uses the following Python libraries:
    Execute the script to preprocess the data, analyze it, and evaluate machine learning models:
 
    ```bash
-   python inventory_demand_forecasting.py
+   python inventory_demand_forcasting.ipynb
    ```
 
 3. **View Results**:
