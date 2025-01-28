@@ -96,12 +96,31 @@ for model in models:
 - Insights from visualizations and statistical analyses can guide inventory planning and decision-making.
 
 ## Example Output
-| Model               | Training Error | Validation Error |
-|---------------------|----------------|------------------|
-| Linear Regression   | X.XX           | Y.YY             |
-| XGBoost Regressor   | X.XX           | Y.YY             |
-| Lasso Regression    | X.XX           | Y.YY             |
-| Ridge Regression    | X.XX           | Y.YY             |
+LinearRegression() : 
+Training Error :  20.902989838083602
+Validation Error :  20.971639632541535
+
+XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=None, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=None, n_jobs=None,
+             num_parallel_tree=None, random_state=None, ...) : 
+Training Error :  6.90214204788208
+Validation Error :  6.920168876647949
+
+Lasso() : 
+Training Error :  21.015028699769758
+Validation Error :  21.07151721377497
+
+Ridge() : 
+Training Error :  20.902989970366438
+Validation Error :  20.97163982226294
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvement, feel free to submit an issue or a pull request.
